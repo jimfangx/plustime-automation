@@ -1,0 +1,21 @@
+{
+  "name": "flextime-automation",
+  "version": "1.0.0",
+  "description": "flextime signup automation for school",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flextime",
+    "automation",
+    "school",
+    "signup",
+    "automation"
+  ],
+  "author": "AirFusion",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.12.2"
+  }
+}

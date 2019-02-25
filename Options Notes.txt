@@ -1,0 +1,23 @@
+document.getElementsByClassName("input").length // # of days that need sign up
+
+document.getElementsByClassName("input")[4] // returns array of options.
+
+document.getElementsByClassName("input")[4].options // returns all options
+
+document.getElementsByClassName("input")[4].options.length //18 # of options - useful in loop
+
+document.getElementsByClassName("input")[4].options[17].text //get text
+
+
+
+
+
+body > div > article > div > div > div > section > div > table > tbody > tr:nth-child(1) > td:nth-child(2)
+
+
+tr tag child value increases by 2 every input block/date y=2x+1
+
+
+
+
+
