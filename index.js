@@ -1,7 +1,11 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Jim Fang. All rights reserved.
+ *  Licensed under the MIT License. See LICENSE in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
 const puppeteer = require('puppeteer');
 const config = require('./config.json');
 const request = require('request');
-
 
 (async () => {
     const browser = await puppeteer.launch();
