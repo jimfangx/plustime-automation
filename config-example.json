@@ -2,6 +2,7 @@
     "email": "xxx@cv.k12.ca.us", // has to be @cv.k12.ca.us email
     "password": "password", // if your password is this, please stop what you are doing and go change it now :/
     "iftttURL": "https://maker.ifttt.com/trigger/<name>/with/key/<key here>", // Put IFTTT maker URL here; program sends a POST request to IFTTT webhook, which pushes a note to your phone using pushbullet about the signed up class.
+    "cron": "* * * * *", // Use https://crontab.guru/
     "keyword1": "study hall", // class selection keyword #1. in all lower case (<---- this is in all lower case :p)
     "keyword2": "chess" // class selection keyword #2. in all lower case 
 

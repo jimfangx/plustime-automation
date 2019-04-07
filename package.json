@@ -11,12 +11,22 @@
     "automation",
     "school",
     "signup",
-    "automation"
+    "auto"
   ],
-  "author": "AirFusion",
+  "author": "AirFusion45",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^1.12.2",
+    "node-schedule": "^1.3.2",
+    "puppeteer": "^1.14.0",
     "request": "^2.88.0"
+  },
+  "readme": "https://github.com/AirFusion45/plustime-automation/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AirFusion45/plustime-automation"
+  },
+  "bugs": {
+    "email": "jfang.cv.ca.us@gmail.com",
+    "url": "https://github.com/AirFusion45/plustime-automation/issues"
   }
 }
