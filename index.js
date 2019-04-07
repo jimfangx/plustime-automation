@@ -11,7 +11,7 @@ var schedule = require('node-schedule');
 schedule.scheduleJob(config.cron, function () {
 
     (async () => {
-        const browser = await puppeteer.launch({ headless: false });
+        const browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
         await page.goto('https://canyon.pltime.net/users/sign_in');
         await page.waitFor(500);
