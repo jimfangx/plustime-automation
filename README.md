@@ -41,7 +41,7 @@ You can host Plus Time automation tool on a raspberry pi, or on cloud computing 
   * Notifies you about what class you were signed up to OR assigned to (by a teacher) by sending a notification to your phone 
 
 # Authors
-  * AirFusion45 - Ownwer & Current maintainer
+  * AirFusion45 - Owner & Current maintainer
 
 # Contributors
   * Tadashi Saito (Slack: tadd) - Helping with course selection problem on Puppeteer's Slack! Thanks!
