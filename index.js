@@ -8,11 +8,11 @@ const config = require('./config.json');
 const request = require('request');
 var CronJob = require('cron').CronJob;
 
-new CronJob('30 18 * * *', function () {
+new CronJob(config.cron, function () {
 
 
     (async () => {
-        const browser = await puppeteer.launch({ headless: false });
+        const browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
         await page.goto('https://canyon.pltime.net/users/sign_in');
         await page.waitFor(500);
