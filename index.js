@@ -8,7 +8,7 @@ const config = require('./config.json');
 const request = require('request');
 var CronJob = require('cron').CronJob;
 
-new CronJob('30 18 * * *', function () {
+new CronJob(config.cron, function () {
 
 
     (async () => {
